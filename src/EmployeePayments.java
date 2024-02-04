@@ -54,10 +54,8 @@ public class EmployeePayments {
         incomeWithBonus = income + (income * bonus / 100);
         return incomeWithBonus;
     }
-
     public double giveRaise(double income, double raise){
         incomeWithRaise = income + raise;
         return incomeWithRaise;
     }
-
 }
