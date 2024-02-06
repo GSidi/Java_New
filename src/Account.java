@@ -4,7 +4,7 @@ public class Account {
     private  double balance;
 
     //constructor function
-    public Account(String name, Double balance){
+    public Account(String name, double balance){
         this.name = name;
         if (balance>0.0) {
             this.balance = balance;
