@@ -21,5 +21,6 @@ public class DateDisplayTest {
         dateObject.setYearDisplay(newYear);
 
         System.out.printf("-New Date:%d%n-New Month:%d%n-New Year:%d%n",dateObject.getDateDisplay(), dateObject.getMonthDisplay(), dateObject.getYearDisplay());
+        System.out.printf("%s",dateObject.dateToDisplay(newDate,newMonth,newYear));
     }
 }
