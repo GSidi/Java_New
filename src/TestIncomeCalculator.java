@@ -10,6 +10,7 @@ public class TestIncomeCalculator {
         double pricePerHour;
         double hoursWorked;
         double workerIncome;
+        String userChoice;
 
         Scanner input = new Scanner(System.in);
 
@@ -31,7 +32,14 @@ public class TestIncomeCalculator {
             workerIncome = worker.calculateIncome(pricePerHour, hoursWorked);
             System.out.printf("-Worker: %s %s%n-Price Per Hour: %.2f%n-Hours Worked: %.2f%n-Monthly Income: %.2f%n",
                     firstName, surname , pricePerHour, hoursWorked, workerIncome);
-            numberOfWorkers -= 1;
+
+            System.out.println("Do you want to continue with the next worker or you want to stop?(Y/N)");
+            userChoice = input.nextLine();
+            if (userChoice .equals("Y")){
+                break;
+            }else {
+                numberOfWorkers -= 1;
+            }
         }
     }
 
