@@ -40,10 +40,10 @@ public class IncomeCalculator {
 
     public double calculateIncome(double pricePerHour, double hoursWorked){
         if(hoursWorked <= 40){
-            income = pricePerHour * hoursWorked;
+            income = (pricePerHour * hoursWorked )* 4;
         } else if (hoursWorked >40) {
             aboveLimitHours = hoursWorked - 40;
-            income = aboveLimitHours * (pricePerHour * 1.5) + (hoursWorked - aboveLimitHours) * pricePerHour;
+            income = (aboveLimitHours * (pricePerHour * 1.5) + (hoursWorked - aboveLimitHours) * pricePerHour)*4;
         }
         return income;
     }
