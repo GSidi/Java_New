@@ -2,6 +2,8 @@ public class IncomeCalculator {
 
     private String name;
     private String surname;
+    private double income;
+    private double aboveLimitHours;
     private double pricePerHour;
     private double hoursWorked;
 
@@ -34,5 +36,15 @@ public class IncomeCalculator {
     }
     public void setHoursWorked(double hoursWorked) {
         this.hoursWorked = hoursWorked;
+    }
+
+    public double calculateIncome(double pricePerHour, double hoursWorked){
+        if(hoursWorked <= 40){
+            income = pricePerHour * hoursWorked;
+        } else if (hoursWorked >40) {
+            aboveLimitHours = hoursWorked - 40;
+            income = aboveLimitHours * (pricePerHour * 1.5) + (hoursWorked - aboveLimitHours) * pricePerHour;
+        }
+        return income;
     }
 }
