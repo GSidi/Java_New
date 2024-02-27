@@ -13,14 +13,15 @@ public class CalculateSalesTest {
         Scanner input = new Scanner(System.in);
         System.out.print("How many product do you want to add?:");
         noOfProducts = input.nextInt();
+        input.nextLine();
         for (i = 0; i <= noOfProducts; i++){
             System.out.println("Give name of the product:");
             nameOfProduct = input.nextLine();
-            input.next();
             System.out.println("Give price of the product:");
             priceOfProduct = input.nextDouble();
             System.out.println("Give total sales of the product:");
             totalSalesOfProduct = input.nextInt();
+            input.nextLine();
 
             CalculateSales salesObject = new CalculateSales(nameOfProduct,priceOfProduct);
             salesObject.setProductName(nameOfProduct);
@@ -35,7 +36,7 @@ public class CalculateSalesTest {
                 affordabilityResponse = "Cheap";
             }
 
-            System.out.printf("%nProduct %d%nName:%s5%nPrice:%.2f%nTotal Sales:%d%nAffordability:%s%n",i ,salesObject.getProductName() ,salesObject.getProductPrice() ,
+            System.out.printf("%nProduct%d%nName:%s%nPrice:%.2f%nTotal Sales:%d%nAffordability:%s%n",i ,salesObject.getProductName() ,salesObject.getProductPrice() ,
                     totalSalesOfProduct ,affordabilityResponse);
 
         }
