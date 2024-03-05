@@ -35,15 +35,19 @@ public class CalculusClass {
             case "1":
                 //addition
                 result = (double) firstNumber + secondNumber;
+                break;
             case "2":
                 //subtraction
                 result = (double) firstNumber - secondNumber;
+                break;
             case "3":
                 //multiplication
                 result = (double) firstNumber * secondNumber;
+                break;
             case "4":
                 //division
                 result = (double) firstNumber / secondNumber;
+                break;
         }
 
         return result;
