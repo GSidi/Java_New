@@ -24,12 +24,12 @@ public class LearnMath {
                 mathOperationObject.setMethodToApply(input.nextLine());
                 mathOperation = mathOperationObject.getMethodToApply();
                 while(startLearning){
+                    mathOperationObject.setFirstNumber(rand.nextInt(100));
+                    mathOperationObject.setSecondNumber(rand.nextInt(100));
+                    firstRandomNumber = mathOperationObject.getFirstNumber();
+                    secondRandomNumber = mathOperationObject.getSecondNumber();
+                    correctResult = mathOperationObject.calculusResult(firstRandomNumber, secondRandomNumber, mathOperation);
                     if (mathOperation.equals("1")){
-                            mathOperationObject.setFirstNumber(rand.nextInt(100));
-                            mathOperationObject.setSecondNumber(rand.nextInt(100));
-                            firstRandomNumber = mathOperationObject.getFirstNumber();
-                            secondRandomNumber = mathOperationObject.getSecondNumber();
-                            correctResult = mathOperationObject.calculusResult(firstRandomNumber, secondRandomNumber, mathOperation);
                             System.out.printf("How much does %d + %d equals?%n-Answer:",firstRandomNumber ,secondRandomNumber);
                             answer = input.nextInt();
                             if ((int) correctResult == answer){
@@ -38,12 +38,23 @@ public class LearnMath {
                                 System.out.println("You are wrong");
                             }
                     }else if (mathOperation.equals("2")){
-                        mathOperationObject.setFirstNumber(rand.nextInt(100));
-                        mathOperationObject.setSecondNumber(rand.nextInt(100));
-                        firstRandomNumber = mathOperationObject.getFirstNumber();
-                        secondRandomNumber = mathOperationObject.getSecondNumber();
-                        correctResult = mathOperationObject.calculusResult(firstRandomNumber, secondRandomNumber, mathOperation);
                         System.out.printf("How much does %d - %d equals?%n-Answer:",firstRandomNumber ,secondRandomNumber);
+                        answer = input.nextInt();
+                        if ((int) correctResult == answer){
+                            System.out.println("You are correct");
+                        }else {
+                            System.out.println("You are wrong");
+                        }
+                    }else if (mathOperation.equals("3")){
+                        System.out.printf("How much does %d * %d equals?%n-Answer:",firstRandomNumber ,secondRandomNumber);
+                        answer = input.nextInt();
+                        if ((int) correctResult == answer){
+                            System.out.println("You are correct");
+                        }else {
+                            System.out.println("You are wrong");
+                        }
+                    } else if (mathOperation.equals("4")) {
+                        System.out.printf("How much does %d / %d equals?%n-Answer:",firstRandomNumber ,secondRandomNumber);
                         answer = input.nextInt();
                         if ((int) correctResult == answer){
                             System.out.println("You are correct");
@@ -52,6 +63,14 @@ public class LearnMath {
                         }
                     }
                     input.nextLine();
+                    System.out.println("Do you want to change mathematical operation??(Y/N)");
+                    String userChangeOperation = input.nextLine();
+                    if (userChangeOperation.equals("Y")){
+                        System.out.printf("What do you want to learn?%n-For addition type :1%n-For subtraction type :2%n-For multiplication type :3%n-For division type :4%n-Choice Field:");
+                        mathOperationObject.setMethodToApply(input.nextLine());
+                        mathOperation = mathOperationObject.getMethodToApply();
+                    }
+                    breakChoice = input.nextLine();
                     System.out.println("Do you want to continue?(Y/N)");
                     breakChoice = input.nextLine();
                     if (breakChoice.equals("N")){
