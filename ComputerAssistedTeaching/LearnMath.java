@@ -69,8 +69,9 @@ public class LearnMath {
                         System.out.printf("What do you want to learn?%n-For addition type :1%n-For subtraction type :2%n-For multiplication type :3%n-For division type :4%n-Choice Field:");
                         mathOperationObject.setMethodToApply(input.nextLine());
                         mathOperation = mathOperationObject.getMethodToApply();
+                    }else {
+                        System.out.println("No change then!");
                     }
-                    breakChoice = input.nextLine();
                     System.out.println("Do you want to continue?(Y/N)");
                     breakChoice = input.nextLine();
                     if (breakChoice.equals("N")){
