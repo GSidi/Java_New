@@ -15,6 +15,7 @@ public class LearnMath {
         Scanner input = new Scanner(System.in);
         SecureRandom rand = new SecureRandom();
         CalculusClass mathOperationObject = new CalculusClass(0,0,"");
+        Responses responsesObject =  new Responses(true);
 
         System.out.println("Do you want to learn math operations?(Y/N)");
         String choice = input.nextLine();
@@ -33,33 +34,33 @@ public class LearnMath {
                             System.out.printf("How much does %d + %d equals?%n-Answer:",firstRandomNumber ,secondRandomNumber);
                             answer = input.nextInt();
                             if ((int) correctResult == answer){
-                                System.out.println("You are correct");
+                                System.out.printf("%s%n",responsesObject.positiveResponses(true, rand.nextInt(4)));
                             }else {
-                                System.out.println("You are wrong");
+                                System.out.printf("%s%n",responsesObject.negativeResponses(false, rand.nextInt(4)));
                             }
                     }else if (mathOperation.equals("2")){
                         System.out.printf("How much does %d - %d equals?%n-Answer:",firstRandomNumber ,secondRandomNumber);
                         answer = input.nextInt();
                         if ((int) correctResult == answer){
-                            System.out.println("You are correct");
+                            System.out.printf("%s%n",responsesObject.positiveResponses(true, rand.nextInt(4)));
                         }else {
-                            System.out.println("You are wrong");
+                            System.out.printf("%s%n",responsesObject.negativeResponses(false, rand.nextInt(4)));
                         }
                     }else if (mathOperation.equals("3")){
                         System.out.printf("How much does %d * %d equals?%n-Answer:",firstRandomNumber ,secondRandomNumber);
                         answer = input.nextInt();
                         if ((int) correctResult == answer){
-                            System.out.println("You are correct");
+                            System.out.printf("%s%n",responsesObject.positiveResponses(true, rand.nextInt(4)));
                         }else {
-                            System.out.println("You are wrong");
+                            System.out.printf("%s%n",responsesObject.negativeResponses(false, rand.nextInt(4)));
                         }
                     } else if (mathOperation.equals("4")) {
                         System.out.printf("How much does %d / %d equals?%n-Answer:",firstRandomNumber ,secondRandomNumber);
                         answer = input.nextInt();
                         if ((int) correctResult == answer){
-                            System.out.println("You are correct");
+                            System.out.printf("%s%n",responsesObject.positiveResponses(true, rand.nextInt(4)));
                         }else {
-                            System.out.println("You are wrong");
+                            System.out.printf("%s%n",responsesObject.negativeResponses(false, rand.nextInt(4)));
                         }
                     }
                     input.nextLine();
