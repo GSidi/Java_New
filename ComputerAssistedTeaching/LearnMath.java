@@ -37,6 +37,19 @@ public class LearnMath {
                             }else {
                                 System.out.println("You are wrong");
                             }
+                    }else if (mathOperation.equals("2")){
+                        mathOperationObject.setFirstNumber(rand.nextInt(100));
+                        mathOperationObject.setSecondNumber(rand.nextInt(100));
+                        firstRandomNumber = mathOperationObject.getFirstNumber();
+                        secondRandomNumber = mathOperationObject.getSecondNumber();
+                        correctResult = mathOperationObject.calculusResult(firstRandomNumber, secondRandomNumber, mathOperation);
+                        System.out.printf("How much does %d - %d equals?%n-Answer:",firstRandomNumber ,secondRandomNumber);
+                        answer = input.nextInt();
+                        if ((int) correctResult == answer){
+                            System.out.println("You are correct");
+                        }else {
+                            System.out.println("You are wrong");
+                        }
                     }
                     input.nextLine();
                     System.out.println("Do you want to continue?(Y/N)");
