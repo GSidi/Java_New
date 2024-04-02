@@ -17,9 +17,13 @@ public class GradeBook {
     }
 
     //does a bunch of things with data
-//    public void processGrades(){
-//        outputGrades();
-//    }
+    public void processGrades(){
+
+        outputGrades();
+        System.out.printf("%n%s %d%n%s %d%n%n", "Lowest Grade in GradeBook is :", getMinimum(),
+                "Highest Grade in GradeBook is :", getMaximum());
+        outputBarChart();
+    }
 
     public int getMinimum(){
         //we assume that the first entry of the table is the lowest
