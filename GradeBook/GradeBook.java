@@ -64,4 +64,34 @@ public class GradeBook {
         return (double) total/setOfGrades.length;
     }
 
+    public  void outputBarChart(){
+
+        System.out.println("Overall grade distribution");
+
+        int[] frequency = new int[11];
+
+        //for each grade in grade book we up the frequency
+        for(int[] studentGrades : grades){
+            for (int grade : studentGrades){
+                ++frequency[grade/10];
+            }
+        }
+
+        //for each grade frequency we show a graph bar
+        for (int count = 0; count < frequency.length; count++){
+
+            //etiquet of the bar
+            if (count == 10){
+                System.out.printf("%5d", 100);
+            }else {
+                System.out.printf("%02d-%02d", count * 10, count * 10 +9);
+            }
+
+            for (int stars = 0; stars < frequency[count];stars++){
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
 }
