@@ -86,9 +86,9 @@ public class GradeBook {
 
             //etiquet of the bar
             if (count == 10){
-                System.out.printf("%5d", 100);
+                System.out.printf("%5d:", 100);
             }else {
-                System.out.printf("%02d-%02d", count * 10, count * 10 +9);
+                System.out.printf("%02d-%02d:", count * 10, count * 10 +9);
             }
 
             for (int stars = 0; stars < frequency[count];stars++){
