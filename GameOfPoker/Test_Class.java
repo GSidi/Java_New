@@ -1,9 +1,12 @@
+import java.util.ArrayList;
+
 public class Test_Class {
 
     public static void main(String[] args) {
 
-        String[] numbersArray = new String[0];
-        String[] suitsArray = new String[0];
+        ArrayList<String> numbersArray =new ArrayList<String>();
+        ArrayList<String> suitsArray = new ArrayList<String>();
+        ArrayList<String> newDeck = new ArrayList<String>();
 
         SuitsAndNumbers newSetofSuitsAndNumbers = new SuitsAndNumbers(51);
 
@@ -20,7 +23,10 @@ public class Test_Class {
 
         DeckOfCards testDeck = new DeckOfCards(numbersArray, suitsArray);
 
+        newDeck = testDeck.deckCreation(numbersArray, suitsArray);
 
+//        for (String card : newDeck)
+//            System.out.printf("%s%n",card);
 
     }
 }
