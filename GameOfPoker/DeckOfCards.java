@@ -31,7 +31,6 @@ public class DeckOfCards {
                 newDeck.add(cardCreation);
             }
         }
-
         return  newDeck;
     }
 
