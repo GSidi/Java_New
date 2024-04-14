@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="946160d4-af0b-4ec3-86e3-ca1bde15ef7b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteliJProjects/DeckOfCards.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InteliJProjects/DeckOfCards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteliJProjects/SuitsAndNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InteliJProjects/SuitsAndNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteliJProjects/Test_Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InteliJProjects/Test_Class.class" afterDir="false" />
-    </list>
+    <list default="true" id="946160d4-af0b-4ec3-86e3-ca1bde15ef7b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,21 +60,6 @@
           <url>file://$PROJECT_DIR$/src/FacebookUsersTest.java</url>
           <line>20</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GameOfPoker/Test_Class.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GameOfPoker/DeckFunctionalities.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GameOfPoker/DeckFunctionalities.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
