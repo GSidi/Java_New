@@ -24,7 +24,7 @@ public class SuitsAndNumbers {
         suitsArray.add("Spades");
         suitsArray.add("Hearts");
         suitsArray.add("Diamonds");
-        if (this.cardGameName != 52){
+        if (this.cardGameName != 52 && this.cardGameName>0){
             System.out.printf("You have to set a new numberArray for your game since we provide 52 cards by defaultArrayList<String>.%nFeel free to change the suits array also.%n");
         }
     }

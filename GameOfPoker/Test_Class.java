@@ -7,8 +7,9 @@ public class Test_Class {
         ArrayList<String> numbersArray =new ArrayList<String>();
         ArrayList<String> suitsArray = new ArrayList<String>();
         ArrayList<String> newDeck = new ArrayList<String>();
+        ArrayList<String> shuffledDeck = new ArrayList<>();
 
-        SuitsAndNumbers newSetofSuitsAndNumbers = new SuitsAndNumbers(51);
+        SuitsAndNumbers newSetofSuitsAndNumbers = new SuitsAndNumbers(52);
 
         numbersArray = newSetofSuitsAndNumbers.getNumbersArray();
         suitsArray = newSetofSuitsAndNumbers.getSuitsArray();
@@ -25,8 +26,18 @@ public class Test_Class {
 
         newDeck = testDeck.deckCreation(numbersArray, suitsArray);
 
-//        for (String card : newDeck)
-//            System.out.printf("%s%n",card);
+        for (String card : newDeck)
+            System.out.printf("%s%n",card);
 
+        System.out.printf("length of deck:%d%n",newDeck.size());
+
+        DeckFunctionalities deckFunct = new DeckFunctionalities("shuffle");
+
+         shuffledDeck = deckFunct.shuffleDeck(newDeck, "shuffle");
+
+        for (String card : shuffledDeck)
+            System.out.printf("%s%n",card);
+
+        System.out.printf("length of deck:%d%n",shuffledDeck.size());
     }
 }
