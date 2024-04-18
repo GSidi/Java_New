@@ -35,7 +35,7 @@ public class GameOfPokeMain {
 
             PlayerCreation newPlayer = new PlayerCreation(playersName,playersSurname,playersNickname,playersMoney);
             ArrayList<String> player = new ArrayList<>();
-            
+
             player.add(newPlayer.getPlayerName());
             player.add(newPlayer.getPlayerSurname());
             player.add(newPlayer.getPlayerNickname());
