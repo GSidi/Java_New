@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.regex.*;
+import java.util.Collections;
 public class PlayerHand {
 
     String playerName;
@@ -34,12 +35,12 @@ public class PlayerHand {
         String fourOfaKingCheck;
         String straightFlushCheck;
 
-        flushCheck = this.flushColour(playersHand);
+        flushCheck = this.flushCheck(playersHand);
 
         return  null;
     }
 
-    private String flushColour(ArrayList<String> playersHand){
+    private String flushCheck(ArrayList<String> playersHand){
 
         String flushCheck = "No Flush";
         Boolean matchFound = false;
@@ -89,4 +90,42 @@ public class PlayerHand {
         return flushCheck;
     }
 
+    private String straightCheck(ArrayList<String> playersHand){
+
+        int straghtCount = 0;
+        String cardNumber;
+        int cardValue;
+        ArrayList<Integer> cardValuesList = new ArrayList<Integer>();
+
+        for (String card : playersHand){
+
+          cardNumber = card.substring(0,2);
+          switch (cardNumber){
+              case "J":
+                  cardValue = 11;
+                  break;
+              case "Q":
+                  cardValue = 12;
+                  break;
+              case "K":
+                  cardValue = 13;
+                  break;
+              case "A":
+                      cardValue = 14;
+                      break;
+              default:
+                  cardValue = Integer.valueOf(cardNumber);
+          }
+
+            cardValuesList.add(cardValue);
+
+        }
+
+        cardValuesList.sort(Collections.reverseOrder());
+        ArrayList<Integer> cardValuesListSorted = new ArrayList<>(cardValuesList);
+
+        //int benchmark = Integer.parseInt(playersHand.get(0).substring(0,2));
+
+        return null;
+    }
 }
