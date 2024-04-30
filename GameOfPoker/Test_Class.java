@@ -35,7 +35,7 @@ public class Test_Class {
 
         DeckFunctionalities deckFunct = new DeckFunctionalities("shuffle", newDeck);
 
-         shuffledDeck = deckFunct.shuffleDeck(newDeck, "shuffle");
+         shuffledDeck = deckFunct.shuffleDeck("shuffle", newDeck);
 
         for (String card : shuffledDeck)
             System.out.printf("%s%n",card);

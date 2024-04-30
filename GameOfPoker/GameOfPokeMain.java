@@ -13,7 +13,11 @@ public class GameOfPokeMain {
         String  totalPlayers;
         int totalPlayersForLoop = 0;
         ArrayList<ArrayList<String>> tableOfPlayers = new ArrayList<>() ;
+        int deckLength = 52;
+        ArrayList<String> pokerGameDeck = new ArrayList<>();
+        ArrayList<String> shuffledDeck = new ArrayList<>();
 
+        //Table creation : meaning the total players
         totalPlayers = JOptionPane.showInputDialog("Give total players for the poker game");
 
         try {
@@ -22,8 +26,9 @@ public class GameOfPokeMain {
             System.out.printf("%s , meaning you inserted a string not a number",e.toString());
         }
 
+        //Player creation
         for (int i = 0; i< totalPlayersForLoop ; i++){
-            playersName = JOptionPane.showInputDialog("Give players d name");
+            playersName = JOptionPane.showInputDialog("Give players name");
             playersSurname = JOptionPane.showInputDialog("Give players surname");
             playersNickname = JOptionPane.showInputDialog("Give players nickname");
 
@@ -48,10 +53,20 @@ public class GameOfPokeMain {
             tableOfPlayers.add(player);
         }
 
-
         for (ArrayList<String> eachPlayer : tableOfPlayers){
                 System.out.printf("Player: %s%n", eachPlayer.toString());
         }
+        //we get the total suits and number for the creation of the deck
+        SuitsAndNumbers suitsAndNumbersObject = new SuitsAndNumbers(deckLength);
+
+        //initialization of the deck for the game
+        DeckOfCards pokerGameDeckObject = new DeckOfCards(suitsAndNumbersObject.getNumbersArray(), suitsAndNumbersObject.getSuitsArray());
+        pokerGameDeck = pokerGameDeckObject.deckCreation(suitsAndNumbersObject.getNumbersArray(), suitsAndNumbersObject.getSuitsArray());
+        //Creation a shuffled deck
+        DeckFunctionalities deckFunctions = new DeckFunctionalities("shuffle", pokerGameDeck);
+        shuffledDeck = deckFunctions.shuffleDeck("shuffle", pokerGameDeck);
+//        System.out.println(shuffledDeck);
+//        System.out.println(shuffledDeck.size());
 
     }
 }

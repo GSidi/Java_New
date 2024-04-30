@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="946160d4-af0b-4ec3-86e3-ca1bde15ef7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameOfPoker/PlayerHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfPoker/PlayerHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOfPoker/DeckFunctionalities.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfPoker/DeckFunctionalities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOfPoker/GameOfPokeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfPoker/GameOfPokeMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameOfPoker/Test_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfPoker/Test_Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InteliJProjects/PlayerHand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InteliJProjects/PlayerHand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteliJProjects/DeckFunctionalities.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InteliJProjects/DeckFunctionalities.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/InteliJProjects/Test_Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InteliJProjects/Test_Class.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +87,11 @@
           <url>file://$PROJECT_DIR$/GameOfPoker/PlayerHand.java</url>
           <line>97</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GameOfPoker/GameOfPokeMain.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

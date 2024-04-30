@@ -32,7 +32,7 @@ public class DeckFunctionalities {
         this.deckOfCards = deckOfCards;
     }
 
-    public ArrayList<String> shuffleDeck (ArrayList<String> deckOfCards , String command){
+    public ArrayList<String> shuffleDeck (String command, ArrayList<String> deckOfCards){
 
         if (command.equals("shuffle")){
            Collections.shuffle(deckOfCards);
