@@ -48,7 +48,9 @@ public class Test_Class {
 
         for (ArrayList<String> hand : playerHands){
             PlayerHand checkPlayersHandStrength = new PlayerHand("George",hand);
-            checkPlayersHandStrength.handStrength(hand);
+//            checkPlayersHandStrength.handStrength(hand);
+            System.out.println(checkPlayersHandStrength.getPlayerName());
+            System.out.println(checkPlayersHandStrength.handStrength(hand));
         }
 
         System.out.printf("length of deck:%d%n",shuffledDeck.size());

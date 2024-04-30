@@ -38,43 +38,39 @@ public class PlayerHand {
         flushCheck = this.flushCheck(playersHand);
         straightCheck = this.straightCheck(playersHand);
 
-        return flushCheck+"%n"+straightCheck;
+        return String.format("%s%n%s%n", flushCheck, straightCheck);
     }
 
     private String flushCheck(ArrayList<String> playersHand){
 
         String flushCheck = "No Flush";
-        Boolean matchFound = false;
         int heartCount = 0;
         int diamondCount = 0;
         int spadeCount = 0;
         int clubCount = 0;
-
-        Pattern heartsPattern = Pattern.compile("Hearts");
-        Pattern diamondsPattern = Pattern.compile("Diamonds");
-        Pattern spadesPattern = Pattern.compile("Spades");
-        Pattern clubsPattern = Pattern.compile("Clubs");
+        String findCardColour = "";
 
         for (String card : playersHand){
-            Matcher heartsMatch = heartsPattern.matcher(card);
-            matchFound = heartsMatch.find();
-            if (matchFound = true){
-                heartCount +=1;
+
+            if (card.substring(4,5).equals(" ")){
+                findCardColour = card.substring(5,card.length());
+            }else{
+                findCardColour = card.substring(6,card.length());
             }
-            Matcher diamondsMatch = diamondsPattern.matcher(card);
-            matchFound = diamondsMatch.find();
-            if (matchFound = true){
-                diamondCount +=1;
-            }
-            Matcher spadesMatch = spadesPattern.matcher(card);
-            matchFound = spadesMatch.find();
-            if (matchFound = true){
-                spadeCount +=1;
-            }
-            Matcher clubsMatch = clubsPattern.matcher(card);
-            matchFound = clubsMatch.find();
-            if (matchFound = true){
-                clubCount +=1;
+
+            switch (findCardColour){
+                case "Hearts":
+                    heartCount++;
+                    break;
+                case "Diamonds":
+                    diamondCount++;
+                    break;
+                case "Spades":
+                    spadeCount++;
+                    break;
+                case "Clubs":
+                    clubCount++;
+                    break;
             }
         }
 
