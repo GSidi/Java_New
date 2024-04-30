@@ -9,7 +9,7 @@ public class Test_Class {
         ArrayList<String> suitsArray = new ArrayList<String>();
         ArrayList<String> newDeck = new ArrayList<String>();
         ArrayList<String> shuffledDeck = new ArrayList<>();
-        ArrayList<String[]> playerHands = new ArrayList<String[]>();
+        ArrayList<ArrayList<String>> playerHands = new ArrayList<ArrayList<String>>();
 
         SuitsAndNumbers newSetofSuitsAndNumbers = new SuitsAndNumbers(52);
 
@@ -45,11 +45,14 @@ public class Test_Class {
         playerHands = deckFunct.dealHand(4, shuffledDeck);
 
         int count = 1;
-        for (String[] hand : playerHands){
-            System.out.printf("Player %d hand : %s%n",count , Arrays.toString(hand));
-            count ++;
+
+        for (ArrayList<String> hand : playerHands){
+            PlayerHand checkPlayersHandStrength = new PlayerHand("George",hand);
+            checkPlayersHandStrength.handStrength(hand);
         }
 
         System.out.printf("length of deck:%d%n",shuffledDeck.size());
+
+
     }
 }

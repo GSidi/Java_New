@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="946160d4-af0b-4ec3-86e3-ca1bde15ef7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GameOfPoker/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOfPoker/DeckFunctionalities.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfPoker/DeckFunctionalities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameOfPoker/PlayerHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfPoker/PlayerHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOfPoker/Test_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfPoker/Test_Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOfPoker/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfPoker/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
@@ -52,6 +58,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -64,6 +81,11 @@
           <url>file://$PROJECT_DIR$/src/FacebookUsersTest.java</url>
           <line>20</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GameOfPoker/PlayerHand.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

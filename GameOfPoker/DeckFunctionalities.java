@@ -45,19 +45,19 @@ public class DeckFunctionalities {
         return shuffledDeck;
     }
 
-    public ArrayList<String[]> dealHand(int numberOfPlayers , ArrayList<String> deckOfCards) {
+    public ArrayList<ArrayList<String>> dealHand(int numberOfPlayers , ArrayList<String> deckOfCards) {
 
         ArrayList<String> deckAfterDealing = new ArrayList<>();
-        ArrayList<String[]> playerHands = new ArrayList<String[]>();
+        ArrayList<ArrayList<String>> playerHands = new ArrayList<ArrayList<String>>();
         int tempPosition ;
 
         Random rand = new Random();
 
         for(int i = 0; i < numberOfPlayers ; i++){
-            String[] hand = new String[5];
+            ArrayList<String> hand = new ArrayList<String>();
             for (int j =0 ;  j < 5 ; j++){
                 tempPosition = rand.nextInt(deckOfCards.size());
-                hand[j] = deckOfCards.get(tempPosition);
+                hand.add(j,deckOfCards.get(tempPosition));
                 deckOfCards.remove(tempPosition);
             }
             playerHands.add(hand);

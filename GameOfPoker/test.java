@@ -4,7 +4,7 @@ public class test {
 
     public static void main(String[] args) {
 
-        String x = "10 of Spades";
+        String x = "7 of Spades";
 
         int y = 0;
 

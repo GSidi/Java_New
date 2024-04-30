@@ -36,8 +36,9 @@ public class PlayerHand {
         String straightFlushCheck;
 
         flushCheck = this.flushCheck(playersHand);
+        straightCheck = this.straightCheck(playersHand);
 
-        return  null;
+        return flushCheck+"%n"+straightCheck;
     }
 
     private String flushCheck(ArrayList<String> playersHand){
@@ -92,14 +93,18 @@ public class PlayerHand {
 
     private String straightCheck(ArrayList<String> playersHand){
 
-        int straghtCount = 0;
+        int straightCount = 0;
         String cardNumber;
-        int cardValue;
+        int cardValue = 0;
+        String straightCheck = "No straight";
         ArrayList<Integer> cardValuesList = new ArrayList<Integer>();
 
         for (String card : playersHand){
 
           cardNumber = card.substring(0,2);
+            if (cardNumber.substring(1,2).equals(" ")){
+                cardNumber = cardNumber.substring(0,1);
+            }
           switch (cardNumber){
               case "J":
                   cardValue = 11;
@@ -114,7 +119,7 @@ public class PlayerHand {
                       cardValue = 14;
                       break;
               default:
-                  cardValue = Integer.valueOf(cardNumber);
+                      cardValue = Integer.parseInt(cardNumber.substring(0,1));
           }
 
             cardValuesList.add(cardValue);
@@ -124,8 +129,19 @@ public class PlayerHand {
         cardValuesList.sort(Collections.reverseOrder());
         ArrayList<Integer> cardValuesListSorted = new ArrayList<>(cardValuesList);
 
-        //int benchmark = Integer.parseInt(playersHand.get(0).substring(0,2));
+        int benchmark = cardValuesListSorted.get(0);
 
-        return null;
+        for(int i = 1; i<cardValuesListSorted.size(); i++){
+            if ((benchmark - cardValuesListSorted.get(i)) == 1){
+                benchmark = cardValuesListSorted.get(i);
+                straightCount +=1 ;
+            }
+        }
+
+        if (straightCount == 5){
+            straightCheck = "You got a strait from :"+cardValuesListSorted.get(0)+"-"+cardValuesListSorted.get(cardValuesListSorted.size());
+        }
+
+        return straightCheck;
     }
 }
