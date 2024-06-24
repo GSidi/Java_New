@@ -1,13 +1,12 @@
 public class IntegerSet {
 
     private static boolean[] testSet = new boolean[100];
-    private String forToString = "";
     public IntegerSet(){
         for (int i = 0; i < testSet.length; i++)
             testSet[i] = false;
     }
 
-    public static boolean[] union(boolean[] firstArray , boolean[] secondArray){
+    public  boolean[] union(boolean[] firstArray , boolean[] secondArray){
 
         try{
             for (int i = 0 ; i < firstArray.length ; i++){
@@ -24,7 +23,7 @@ public class IntegerSet {
         return testSet;
     }
 
-    public static boolean[] intersection(boolean[] firstArray , boolean[] secondArray){
+    public  boolean[] intersection(boolean[] firstArray , boolean[] secondArray){
 
         try{
             for (int i = 0 ; i < firstArray.length ; i++){
@@ -41,7 +40,7 @@ public class IntegerSet {
         return testSet;
     }
 
-    public static void insertElement(int newElement){
+    public  void insertElement(int newElement){
         try{
             testSet[newElement] = true;
         }catch (ArrayIndexOutOfBoundsException e){
@@ -49,7 +48,7 @@ public class IntegerSet {
         }
     }
 
-    public static void removeElement(int newElement){
+    public  void removeElement(int newElement){
         try{
             testSet[newElement] = false;
         }catch (ArrayIndexOutOfBoundsException e){
@@ -59,7 +58,8 @@ public class IntegerSet {
 
     @Override
     public String toString() {
-
+        String forToString = "";
+        String returnString = "";
         for (int i = 0 ; i < testSet.length ; i ++){
             if (testSet[i] == true){
                 forToString = forToString+"--"+Integer.toString(i);
