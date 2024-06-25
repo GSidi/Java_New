@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="946160d4-af0b-4ec3-86e3-ca1bde15ef7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOfPoker/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameOfPoker/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InheritanceExamples_Student/FreshmanStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/InheritanceExamples_Student/FreshmanStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InheritanceExamples_Student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/InheritanceExamples_Student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InheritanceExamples_Student/UndergraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/InheritanceExamples_Student/UndergraduateStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InteliJProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InteliJProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteliJProjects/GameOfPokeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InteliJProjects/GameOfPokeMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +49,44 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.BasePlusCommissionEmployeeTest">
+    <configuration name="BasePlusCommissionEmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasePlusCommissionEmployeeTest" />
+      <module name="InteliJProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommissionEmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommissionEmployeeTest" />
+      <module name="InteliJProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntegerSetTest" />
+      <module name="InteliJProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode_Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode_Tests" />
+      <module name="InteliJProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BasePlusCommissionEmployeeTest" />
+        <item itemvalue="Application.CommissionEmployeeTest" />
+        <item itemvalue="Application.IntegerSetTest" />
+        <item itemvalue="Application.LeetCode_Tests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
