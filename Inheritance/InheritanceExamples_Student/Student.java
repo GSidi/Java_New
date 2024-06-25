@@ -53,7 +53,12 @@ public class Student {
 
     @Override
     public String toString() {
-        return String.format("%s%n%s : %s%n%s : %s%n%s : %s%n%s : %d%n%s : %s","Student Information","Student's First Name",getFirstName(),"Student's Surname",getSurname(),
-                "Student's Date of Birth", getDateOfBirth(), "Student's Age", getAge(), "Student's Email", getEmail());
+        return String.format("%s%n%s : %s%n%s : %s%n%s : %s%n%s : %d%n%s : %s",
+                "Student Information",
+                "Student's First Name",getFirstName(),
+                "Student's Surname",getSurname(),
+                "Student's Date of Birth", getDateOfBirth(),
+                "Student's Age", getAge(),
+                "Student's Email", getEmail());
     }
 }
