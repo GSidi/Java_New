@@ -9,8 +9,10 @@
       <sourceFolder url="file://$MODULE_DIR$/GradeBook" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GameOfPoker" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/InheritanceExamples_Student" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Inheritance/InheritanceExamples_Employee" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Inheritance/InheritanceExamples_Student" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Inheritance/EmployeeAdvanced" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Inheritance/InheritanceExamples_Employee_Advanced" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Inheritance/InheritanceExamples_Employee_Simple" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
