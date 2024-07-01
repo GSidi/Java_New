@@ -18,6 +18,16 @@ public class EmployeeTestClass {
                 12.5,
                 500);
 
-        System.out.printf("%s", employeeWithCommissionNo1.toString());
+        //System.out.printf("%s", employeeWithCommissionNo1.toString());
+
+        EmployeeBasicPlusCommission employeeBasePlusCommission1 = new EmployeeBasicPlusCommission("Dimitris",
+                "Sidiropoulos",
+                "j_sdropoulos@gmail.com",
+                "desi123456",
+                850.980,
+                12.5,
+                500);
+
+        System.out.printf("%s", employeeBasePlusCommission1.toString());
     }
 }
