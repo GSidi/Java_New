@@ -21,10 +21,14 @@ public class BasicEmployee {
         if (socialSecurityNumber.isEmpty())
             throw new IllegalArgumentException("Social security number can not be an empty string");
 
+        if (baseSalary == 0)
+            throw new IllegalArgumentException("Base salary can not be empty");
+
         this.firstName = firstName;
         this.surname = surname;
         this.email = email;
         this.socialSecurityNumber = socialSecurityNumber;
+        this.baseSalary = baseSalary;
     }
 
     public String getFirstName() {
@@ -73,6 +77,12 @@ public class BasicEmployee {
 
     @Override
     public String toString() {
-        return String.format("%s : %s");
+        return String.format("%s : %s%n%s : %s%n%s : %s%n%s : %s%n%s : %.2f%n%s : %.2f",
+                "Employee First Name", getFirstName(),
+                "Employee Surname", getSurname(),
+                "Employee Email", getEmail(),
+                "Employee SSN", getSocialSecurityNumber(),
+                "Employee Base Salary", getBaseSalary(),
+                "Employee Basic Yearly Earnings", yearlyEarnings());
     }
 }

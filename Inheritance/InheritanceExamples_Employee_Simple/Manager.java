@@ -1,4 +1,4 @@
-public class Manager extends BasicEmployee {
+public class Manager extends Employee {
 
     private double extraSalary;
     private String department;

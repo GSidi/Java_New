@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="946160d4-af0b-4ec3-86e3-ca1bde15ef7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inheritance/EmployeeAdvanced/BasicEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance/EmployeeAdvanced/EmployeeTestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance/InheritanceExamples_Employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/InheritanceExamples_Employee_Simple/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance/InheritanceExamples_Employee/Employees_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/InheritanceExamples_Employee_Simple/Employees_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance/InheritanceExamples_Employee/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/InheritanceExamples_Employee_Simple/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InteliJProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InteliJProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/EmployeeAdvanced/BasicEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/EmployeeAdvanced/BasicEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/InheritanceExamples_Employee_Simple/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/InheritanceExamples_Employee_Simple/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteliJProjects/BasePlusCommissionEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InteliJProjects/BasePlusCommissionEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InteliJProjects/CommissionEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InteliJProjects/CommissionEmployee.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BasePlusCommissionEmployeeTest">
+  <component name="RunManager" selected="Application.EmployeeTestClass">
     <configuration name="BasePlusCommissionEmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasePlusCommissionEmployeeTest" />
       <module name="InteliJProjects" />
@@ -59,6 +59,13 @@
     </configuration>
     <configuration name="CommissionEmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommissionEmployeeTest" />
+      <module name="InteliJProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmployeeTestClass" />
       <module name="InteliJProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeTestClass" />
         <item itemvalue="Application.BasePlusCommissionEmployeeTest" />
         <item itemvalue="Application.CommissionEmployeeTest" />
         <item itemvalue="Application.IntegerSetTest" />
