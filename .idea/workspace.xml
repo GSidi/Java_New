@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="946160d4-af0b-4ec3-86e3-ca1bde15ef7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inheritance/EmployeeAdvanced/EmployeeBasicPlusCommission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance/EmployeeAdvanced/HourlyEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance/EmployeeAdvanced/PieceEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance/EmployeeAdvanced/SalariedEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance/EmployeeAdvanced/EmployeeTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/EmployeeAdvanced/EmployeeTestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
