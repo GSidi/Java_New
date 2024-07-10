@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Inheritance/InheritanceExamples_Employee_Advanced" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Inheritance/InheritanceExamples_Employee_Simple" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Polymorphism&amp;Abstraction/SimpleAnimalPolymorph" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Polymorphism&amp;Abstraction/SimpleEmployeeAbstraction" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

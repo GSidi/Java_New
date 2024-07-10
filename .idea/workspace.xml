@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="946160d4-af0b-4ec3-86e3-ca1bde15ef7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Polymorphism&amp;Abstraction/SimpleEmployeeAbstraction/EmployeeAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Polymorphism&amp;Abstraction/SimpleEmployeeAbstraction/SalariedEmployee_poly.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InteliJProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InteliJProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polymorphism&amp;Abstraction/SimpleEmployeeAbstraction/Employee.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
