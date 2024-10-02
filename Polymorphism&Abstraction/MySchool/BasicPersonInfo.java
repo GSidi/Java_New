@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface BasicPersonInfo {
+public interface BasicPersonInfo {
+    String getFullname();
 }

@@ -17,6 +17,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Polymorphism&amp;Abstraction/SimpleEmployeeAbstraction" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Polymorphism&amp;Abstraction/Interfaces_first_steps" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Polymorphism&amp;Abstraction/CarbonFootprint" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Polymorphism&amp;Abstraction/MySchool" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Strings_Chars_RegEx" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,4 +1,4 @@
-public class UndergraduateStudent extends Student{
+public class UndergraduateStudent extends StudentOfSchool {
 
     private final int numberOfYearsToGraduate; //Total number of years needed to graduate on average.
     private final String universityName;
