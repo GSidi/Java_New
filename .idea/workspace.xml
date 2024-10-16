@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="946160d4-af0b-4ec3-86e3-ca1bde15ef7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Polymorphism&amp;Abstraction/MySchool/Administration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism&amp;Abstraction/MySchool/BasicPersonInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism&amp;Abstraction/MySchool/MySchoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism&amp;Abstraction/MySchool/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Polymorphism&amp;Abstraction/MySchool/StudentOfSchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Strings_Chars_RegEx/StringCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance/InheritanceExamples_Student/UndergraduateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/InheritanceExamples_Student/UndergraduateStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InteliJProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InteliJProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings_Chars_RegEx/StringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings_Chars_RegEx/StringConcat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,30 +46,30 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringCompare">
-    <configuration name="BasePlusCommissionEmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasePlusCommissionEmployeeTest" />
-      <module name="InteliJProjects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommissionEmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommissionEmployeeTest" />
-      <module name="InteliJProjects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EmployeeTestClass" />
-      <module name="InteliJProjects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringConcat">
     <configuration name="StringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringCompare" />
+      <module name="InteliJProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringConcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringConcat" />
+      <module name="InteliJProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringStartEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringStartEnd" />
+      <module name="InteliJProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubString" />
       <module name="InteliJProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringConcat" />
+        <item itemvalue="Application.SubString" />
+        <item itemvalue="Application.StringStartEnd" />
         <item itemvalue="Application.StringCompare" />
         <item itemvalue="Application.TestInterfaces" />
-        <item itemvalue="Application.EmployeeTestClass" />
-        <item itemvalue="Application.BasePlusCommissionEmployeeTest" />
-        <item itemvalue="Application.CommissionEmployeeTest" />
       </list>
     </recent_temporary>
   </component>
