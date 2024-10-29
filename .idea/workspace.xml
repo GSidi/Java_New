@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="946160d4-af0b-4ec3-86e3-ca1bde15ef7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Strings_Chars_RegEx/StringBufferTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings_Chars_RegEx/StringValueOf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings_Chars_RegEx/StringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings_Chars_RegEx/StringConcat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +47,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringConcat">
-    <configuration name="StringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringCompare" />
+  <component name="RunManager" selected="Application.StringBufferTesting">
+    <configuration name="StringBufferTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringBufferTesting" />
       <module name="InteliJProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,6 +69,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringValueOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringValueOf" />
+      <module name="InteliJProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SubString" />
       <module name="InteliJProjects" />
@@ -75,20 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestInterfaces" />
-      <module name="InteliJProjects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBufferTesting" />
+        <item itemvalue="Application.StringValueOf" />
         <item itemvalue="Application.StringConcat" />
         <item itemvalue="Application.SubString" />
         <item itemvalue="Application.StringStartEnd" />
-        <item itemvalue="Application.StringCompare" />
-        <item itemvalue="Application.TestInterfaces" />
       </list>
     </recent_temporary>
   </component>
